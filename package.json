@@ -1,0 +1,24 @@
+{
+  "name": "NarrowSight-Server",
+  "version": "0.1.0",
+  "description": "Server component for NarrowSight. Servers the API and stores all things related with NarrowSight.",
+  "main": "server.js",
+  "repository": {
+    "url": "git@github.com:NarrowSight/NarrowSight-Server.git",
+    "type": "git"
+  },
+  "contributors": [
+    {
+      "name": "Jogchum Koerts",
+      "email": "joggie@joggie.nl"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.4"
+  }
+}
