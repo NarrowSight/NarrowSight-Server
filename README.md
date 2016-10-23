@@ -16,3 +16,10 @@ $ yarn run start
 
 // Access the API through the url shown in the startup output.
 ```
+## Nodemon
+
+For development purposes NarrowSight-Server also ships with nodemon. Nodemon convenient helps the developemnt flow by automatically restarting NodeJS on file changes. You can use the development option by invoking `start-dev` in stead of `start`
+
+```
+$ yarn run start-dev
+```
